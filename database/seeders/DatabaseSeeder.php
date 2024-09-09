@@ -16,5 +16,6 @@ class DatabaseSeeder extends Seeder
         $this->call(QuestionTypeSeeder::class);
         $this->call(AdminSeeder::class);
         $this->call(LangSeeder::class);
+        $this->call(LocationSeeder::class);
     }
 }
